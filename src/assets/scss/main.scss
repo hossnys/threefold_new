@@ -13,7 +13,7 @@
 blockquote {
   // @apply border-l;
   @apply border-l-4;
-  @apply border-l-blue-500;
+  // @apply border-l-blue-500;
   @apply pl-4;
   @apply italic;
   @apply my-8;
@@ -75,7 +75,7 @@ body {
 pre {
   // @apply border-l;
   @apply border-l-2;
-  @apply border-l-gray-500;
+  // @apply border-l-gray-500;
   @apply pl-4;
   @apply mt-4;
   @apply text-base;
@@ -143,7 +143,7 @@ ul {
 
 .flex-post {
   // @apply border-b;
-  @apply border-b-gray-300;
+  // @apply border-b-gray-300;
   @apply flex-col;
   @apply w-full;
   .post-card-image {
