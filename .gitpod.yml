@@ -3,13 +3,12 @@ image:
 tasks:
     - name: WIKI
       command: |
-        curl https://raw.githubusercontent.com/crystaluniverse/crystaltools/development/install.sh > /tmp/install.sh
+        curl https://raw.githubusercontent.com/crystaluniverse/crystaltools/development_scriptsnew/install.sh > /tmp/install.sh
         bash /tmp/install.sh
         source /workspace/env.sh
-        publtools_check
-        cd wiki_config && publishtools flatten 
-        cd ..
-        echo ' - do "./run" to run wiki or website.'
+        # publtools_check
+        # cd wiki_config && publishtools flatten 
+        echo ' - do "./website_run" to run wiki or website.'
         echo ' - do "open workspace.code-workspace" to open all relevant dirs in your editor.'
 ports:
   - port: 9998
