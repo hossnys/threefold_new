@@ -12,7 +12,7 @@ tasks:
         web_install
         website_install
         website_run
-        echo ' - do "./website_run" to run wiki or website.'
+        echo ' - do "website_run" to run wiki or website.'
         echo ' - do "open workspace.code-workspace" to open all relevant dirs in your editor.'
 ports:
   - port: 9998
