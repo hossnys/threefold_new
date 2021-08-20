@@ -1,10 +1,14 @@
 {
 	"folders": [
 		{
-			"path": "."
+			"path": "../../home/gitpod/codewiki"
 		},
 		{
+<<<<<<< HEAD
 			"path": "/workspace/code"
+=======
+			"path": "wiki_cmd"
+>>>>>>> origin/development
 		}
 	],
 	"settings": {}
