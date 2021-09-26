@@ -54,7 +54,10 @@
         v-if="
           $page.markdownPage.id !== 'contact' &&
           $page.markdownPage.header_title &&
-          $page.markdownPage.header_title != ''
+          $page.markdownPage.header_title != '' &&
+          $page.markdownPage.id !== 'about-us' &&
+          $page.markdownPage.id !== 'grid' &&
+          $page.markdownPage.id !== 'token'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -217,7 +220,7 @@
         :faqs="$page.markdownPage.faqContent"
       />
 
-      <ShowcaseProducts
+      <!-- <ShowcaseProducts
         class="my-20"
         v-if="
           $page.markdownPage.productData &&
@@ -226,7 +229,7 @@
         :id="$page.markdownPage.id"
         :main="$page.markdownPage.productsMain"
         :products="$page.markdownPage.productData"
-      />
+      /> -->
       <SolutionsHeader
         class="mt-0"
         v-if="$page.markdownPage.header"
