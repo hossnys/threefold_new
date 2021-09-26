@@ -585,7 +585,7 @@
 
       <div
         v-else-if="id == 'token' && brandPanel3"
-        class="flex flex-wrap lg:text-left lg:pt-16 px-4"
+        class="flex flex-wrap lg:text-left lg:pt-16 px-2"
       >
         <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center lg:px-32">
           <div class="">

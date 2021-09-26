@@ -4,15 +4,15 @@ title: THE SOURCE CODE FOR
 subtitle: A PEOPLE’S INTERNET
 image: ./number_bg2.jpg
 button: How it works
-link: '#'
+link: /how-it-works
 button2: Expand the grid
-link2: '#'
+link2: /grid
 button3: Peer-to-peer cloud
-link3: '#'
+link3: https://cloud.threefold.io/
 button4: Developer Grants(coming soon)
 link4: '#'
 button5: The ThreeFold Token
-link5: '#'
+link5: /token
 button6: Community Forum
-link6: '#'
+link6: https://forum.threefold.io/
 ---

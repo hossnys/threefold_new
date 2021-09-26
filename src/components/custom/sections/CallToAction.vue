@@ -459,7 +459,7 @@
           "
           target="_blank"
           v-if="cta.button6 && cta.link6.includes('http')"
-          :href="cta.link4"
+          :href="cta.link6"
           >{{ cta.button6 }}</a
         >
         <a
@@ -787,7 +787,7 @@
 
     <!-- token -->
     <div
-      class="w-full max-w-6xl mx-auto py-12"
+      class="w-full max-w-6xl mx-auto lg:my-20"
       v-else-if="id == 'token' && !lastCta"
     >
       <h2
@@ -857,7 +857,7 @@
         class="
           max-w-2xl
           mx-auto
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -869,7 +869,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
 
       <a

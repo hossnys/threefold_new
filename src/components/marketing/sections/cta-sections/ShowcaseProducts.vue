@@ -12,7 +12,7 @@
     <div class="w-full text-center" v-else>
       <h2
         v-if="main !== null && main.title"
-        class="text-5xl font-semibold leading-tight font-heading"
+        class="text-6xl font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>

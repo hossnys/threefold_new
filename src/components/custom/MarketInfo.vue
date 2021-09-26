@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-wrap -mx-auto">
+  <div class="flex flex-wrap -mx-auto lg:my-20">
     <div class="text-center mx-auto my-4">
       <h2
         class="
@@ -31,7 +31,7 @@
 
     <!-- Column Content -->
     <div class="flex flex-col my-1 lg:w-1/2 overflow-hidden lg:px-20">
-      <div class="flex my-10 px-2" v-for="info in marketInfo" :key="info.id">
+      <div class="flex my-4 px-2" v-for="info in marketInfo" :key="info.id">
         <div class="flex-shrink-0">
           <g-image :src="info.image" class="h-32 w-32" />
         </div>

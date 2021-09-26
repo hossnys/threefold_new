@@ -3,7 +3,7 @@ id: grid_cta
 title: ZERO OS
 image: ./zero_os.png
 button: How It Works
-link: '#'
+link: /how-it-works
 button2: Download Zero OS
 link2: '#'
 ---

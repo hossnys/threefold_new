@@ -28,8 +28,7 @@
               font-bold
               text-gray-900
               sm:leading-none
-              lg:text-5xl
-              max-w-2xl
+              lg:text-6xl
             "
           >
             {{ tft.title }}
@@ -40,8 +39,7 @@
             class="
               mt-3
               max-w-md
-              text-lg text-gray-900
-              sm:text-xl
+              text-2xl text-gray-900
               md:mt-5
               md:max-w-xl
             "
