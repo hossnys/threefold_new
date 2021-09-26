@@ -281,13 +281,13 @@
         :header="$page.markdownPage.header4"
       /> -->
 
-      <!-- <GetInTouch
+      <GetInTouch
         v-if="
           $page.markdownPage.contactData &&
           $page.markdownPage.contactData.length > 0
         "
         :contacts="$page.markdownPage.contactData"
-      /> -->
+      />
 
       <!-- <SignUp
         v-if="$page.markdownPage.signup"
