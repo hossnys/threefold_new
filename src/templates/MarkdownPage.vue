@@ -4,7 +4,8 @@
       <Header
         v-if="
           $page.markdownPage.header_title &&
-          $page.markdownPage.header_title != ''
+          $page.markdownPage.header_title != '' &&
+          $page.markdownPage.id !== 'support'
         "
         :id="$page.markdownPage.id"
         :title="$page.markdownPage.header_title"
@@ -42,6 +43,21 @@
       />
     </div>
     <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+      <Header
+        v-if="
+          $page.markdownPage.header_title &&
+          $page.markdownPage.header_title != '' &&
+          $page.markdownPage.id == 'support'
+        "
+        :id="$page.markdownPage.id"
+        :title="$page.markdownPage.header_title"
+        :slogan="$page.markdownPage.header_slogan"
+        :image="$page.markdownPage.header_image"
+        :altImg="$page.markdownPage.header_altImg"
+        :excerpt="$page.markdownPage.header_excerpt"
+        :button="$page.markdownPage.button"
+        :link="$page.markdownPage.link"
+      />
       <CallToAction
         :id="$page.markdownPage.id"
         v-if="
@@ -161,6 +177,29 @@
     /> -->
 
     <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+      <ShowcaseProducts
+        v-if="
+          $page.markdownPage.productData &&
+          $page.markdownPage.productData.length > 0
+        "
+        :id="$page.markdownPage.id"
+        :main="$page.markdownPage.productsMain"
+        :products="$page.markdownPage.productData"
+      />
+      <SolutionsHeader
+        class="mt-0"
+        v-if="$page.markdownPage.header"
+        :header="$page.markdownPage.header"
+      />
+
+      <g-image
+        v-if="$page.markdownPage.solution_image2"
+        :src="$page.markdownPage.solution_image2.src"
+      />
+      <SolutionsHeader
+        v-if="$page.markdownPage.header2"
+        :header="$page.markdownPage.header2"
+      />
       <logoShowcase
         v-if="$page.markdownPage.logos.length > 0"
         :id="$page.markdownPage.id"
@@ -174,15 +213,6 @@
         :products="$page.markdownPage.appData"
         :main="$page.markdownPage.appsMain"
       /> -->
-      <ShowcaseProducts
-        v-if="
-          $page.markdownPage.productData &&
-          $page.markdownPage.productData.length > 0
-        "
-        :id="$page.markdownPage.id"
-        :main="$page.markdownPage.productsMain"
-        :products="$page.markdownPage.productData"
-      />
 
       <!-- <Partenerships
         v-if="
