@@ -8,13 +8,13 @@
   >
     <!-- about-us -->
     <div
-      class="w-full max-w-2xl mx-auto lg:py-20"
+      class="w-full mx-auto lg:py-20"
       v-if="id == 'about-us' && !textOnly && !lastCta"
     >
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -26,9 +26,9 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
-      <g-image :src="cta.image" class="my-10" />
+      <g-image :src="cta.image" class="my-10 mx-auto" />
 
       <!-- <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
@@ -93,13 +93,13 @@
     </div>
 
     <div
-      class="w-full max-w-2xl mx-auto py-12"
+      class="w-full max-w-3xl mx-auto py-12"
       v-else-if="id == 'about-us' && textOnly"
     >
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -111,7 +111,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
     </div>
 
@@ -122,7 +122,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -135,7 +135,7 @@
       <h2
         v-if="cta.subtitle"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           mb-2
@@ -147,7 +147,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
       <a
         class="
@@ -199,14 +199,14 @@
     >
       <h2
         v-if="cta.title"
-        class="text-5xl uppercase mb-0 leading-tight font-semibold font-heading"
+        class="text-6xl uppercase mb-0 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="text-5xl uppercase mt-0 leading-tight font-semibold font-heading"
+        class="text-6xl uppercase mt-0 leading-tight font-semibold font-heading"
       >
         {{ cta.subtitle }}
       </h2>
@@ -486,17 +486,17 @@
     </div>
 
     <div
-      class="w-full max-w-7xl mx-auto mt-10 px-16"
+      class="w-full max-w-7xl mx-auto mt-10 px-2"
       v-else-if="id == 'home' && lastCta"
     >
-      <g-image :src="cta.image" />
+      <g-image class="mx-auto" :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="text-5xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="text-6xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
-      <div v-html="cta.content" class="mt-6 mb-8 text-gray-800"></div>
+      <div v-html="cta.content" class="mt-6 mb-8 mx-auto text-2xl text-gray-800"></div>
       <div class="mt-8 tracking-wide leading-loose" v-if="cta.video_button">
         <a
           @click="toggleModal"
@@ -690,7 +690,7 @@
       <h2
         v-if="cta.title"
         class="
-          lg:text-5xl
+          lg:text-6xl
           text-center
           uppercase
           my-2
@@ -702,7 +702,7 @@
       </h2>
       <div
         v-html="cta.content"
-        class="mt-6 mb-8 lg:text-xl text-gray-800"
+        class="mt-6 mb-8 lg:text-2xl text-gray-800"
       ></div>
       <a
         class="

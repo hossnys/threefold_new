@@ -116,7 +116,7 @@
             mb-8
             px-10
             text-center
-            text-xl
+            text-2xl
             text-extrabold
             leading-tight
             lg:max-w-2xl
@@ -268,7 +268,7 @@
           {{ title }}
         </h2> -->
 
-        <div class="mb-8 text-xl leading-relaxed" v-html="excerpt"></div>
+        <div class="mb-8 text-2xl leading-relaxed" v-html="excerpt"></div>
 
         <a
           v-if="link.includes('http')"
@@ -380,7 +380,7 @@
           {{ title }}
         </h2>
         <div
-          class="mb-8 mx-auto text-xl max-w-xl leading-relaxed"
+          class="mb-8 mx-auto text-2xl max-w-xl"
           v-html="excerpt"
         ></div>
 

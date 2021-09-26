@@ -33,6 +33,7 @@
         "
         :brandPanel2="true"
       />
+
       <BrandPanel
         :id="$page.markdownPage.id"
         :brand="$page.markdownPage.brandPanel3"
