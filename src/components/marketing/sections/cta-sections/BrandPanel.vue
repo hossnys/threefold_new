@@ -517,9 +517,9 @@
         v-else-if="id == 'token' && !brandPanel2 && !brandPanel3"
         class="flex flex-wrap text-left mt-24"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-5 order-1 lg:order-none text-left">
-          <div class="px-2 lg:self-center">
-            <h2 class="lg:text-5xl mb-6 uppercase leading-none font-heading">
+        <div class="lg:w-1/2 lg:px-32 lg:mt-5 order-1 lg:order-none text-left lg:self-center">
+          <div class="px-2">
+            <h2 class="lg:text-6xl mb-6 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -530,7 +530,7 @@
                 py-6
                 mt-4
                 max-w-md
-                text-gray-900 text-xl
+                text-gray-900 text-2xl
                 leading-tight
                 tracking-wide
               "
@@ -538,8 +538,8 @@
             ></div>
           </div>
         </div>
-        <div class="lg:w-1/2 px-2">
-          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
+        <div class="lg:w-1/2">
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
@@ -547,16 +547,16 @@
         v-else-if="id == 'token' && brandPanel2"
         class="flex flex-wrap lg:text-left lg:pt-16 px-4"
       >
-        <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="lg:w-3/4" :src="image" :alt="brand.title" />
+        <div class="lg:w-1/2 self-center">
+          <g-image class="" :src="image" :alt="brand.title" />
         </div>
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
-          <div class="px-2 lg:self-center">
-            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:px-32 lg:self-center">
+          <div class="px-2">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -587,13 +587,13 @@
         v-else-if="id == 'token' && brandPanel3"
         class="flex flex-wrap lg:text-left lg:pt-16 px-4"
       >
-        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none">
-          <div class="lg:self-center">
-            <h2 class="lg:text-5xl mb-8 uppercase leading-none font-heading">
+        <div class="lg:w-1/2 px-2 lg:mt-10 order-1 lg:order-none lg:self-center lg:px-32">
+          <div class="">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               {{ brand.title }}
             </h2>
             <div
-              class="pb-6 text-gray-900 text-xl leading-tight tracking-wide"
+              class="pb-6 text-gray-900 text-2xl leading-tight tracking-wide"
               v-html="brand.content"
             ></div>
             <a
@@ -619,7 +619,7 @@
           </div>
         </div>
         <div class="lg:w-1/2 px-2 self-center">
-          <g-image class="mx-auto lg:w-3/4" :src="image" :alt="brand.title" />
+          <g-image class="mx-auto" :src="image" :alt="brand.title" />
         </div>
       </div>
 
