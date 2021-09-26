@@ -199,14 +199,14 @@
     >
       <h2
         v-if="cta.title"
-        class="text-6xl uppercase mb-0 leading-tight font-semibold font-heading"
+        class="lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
 
       <h2
         v-if="cta.subtitle"
-        class="text-6xl uppercase mt-0 leading-tight font-semibold font-heading"
+        class="lg:text-6xl uppercase mt-0 leading-tight font-semibold font-heading"
       >
         {{ cta.subtitle }}
       </h2>
@@ -238,7 +238,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -259,7 +259,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -279,7 +279,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -300,7 +300,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -320,7 +320,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -341,7 +341,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -361,7 +361,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -382,7 +382,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -403,7 +403,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -424,7 +424,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -445,7 +445,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -466,7 +466,7 @@
           class="
             inline-block
             bg-white
-            text-sm
+            text-lg
             learn-button
             hover:bg-gray-400
             bo
@@ -492,7 +492,7 @@
       <g-image class="mx-auto" :src="cta.image" />
       <h2
         v-if="cta.title"
-        class="text-6xl mb-2 uppercase leading-tight font-semibold font-heading"
+        class="lg:text-6xl mb-2 uppercase leading-tight font-semibold font-heading"
       >
         {{ cta.title }}
       </h2>
@@ -504,7 +504,7 @@
             inline-block
             cursor-pointer
             bg-blue-900
-            text-sm
+            text-lg
             learn-button
             hover:bg-blue-800
             text-gray-100
@@ -522,7 +522,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -543,7 +543,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -563,7 +563,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -584,7 +584,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -604,7 +604,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -625,7 +625,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -645,7 +645,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo
@@ -666,7 +666,7 @@
         class="
           inline-block
           bg-white
-          text-sm
+          text-lg
           learn-button
           hover:bg-gray-400
           bo

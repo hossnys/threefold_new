@@ -1,7 +1,7 @@
 ---
 id: nodes_home
 title:  ''
-image: ./uhuru_logo_color.png
+image: ./tag_logo.png
 button: Learn More
 url: /partners/take_action_global
 ---

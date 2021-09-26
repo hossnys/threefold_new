@@ -3,7 +3,7 @@
     <div class="w-full max-w-7xl mx-auto mt-10 px-4 text-center">
       <h2
         v-if="main !== null"
-        class="text-6xl font-semibold leading-tight font-heading"
+        class="lg:text-6xl font-semibold leading-tight font-heading"
       >
         {{ main.title }}
       </h2>
@@ -32,7 +32,7 @@
               :href="product.url"
               class="
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12
@@ -48,7 +48,7 @@
               :href="product.url"
               class="
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 px-12

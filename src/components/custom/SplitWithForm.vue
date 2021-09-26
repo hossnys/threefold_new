@@ -17,7 +17,7 @@
       >
         <h2
           class="
-            text-6xl uppercase mb-0 leading-tight font-semibold font-heading
+            lg:text-6xl uppercase mb-0 leading-tight font-semibold font-heading
           "
         >
           {{ subscribe.title }}

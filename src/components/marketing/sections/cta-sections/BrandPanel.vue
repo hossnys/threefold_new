@@ -173,7 +173,7 @@
         </div>
         <div class="lg:w-1/2 lg:px-10 order-1 lg:order-none lg:self-center">
           <div class="">
-            <h2 class="text-6xl mb-8 uppercase leading-none font-heading">
+            <h2 class="lg:text-6xl mb-8 uppercase leading-none font-heading">
               <span class="block">{{ brand.title }}</span>
               <!-- <span class="block" v-if="brand.subtitle">{{
                 brand.subtitle
@@ -190,7 +190,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 bo
@@ -212,7 +212,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 bo
@@ -233,7 +233,7 @@
               class="
                 inline-block
                 bg-white
-                text-sm
+                text-lg
                 learn-button
                 hover:bg-gray-400
                 bo

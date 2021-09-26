@@ -1,5 +1,5 @@
 <template>
-  <div class="relative lg:pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
+  <div class="relative pt-16 lg:pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
     <div class="absolute inset-0">
       <div class="bg-white h-1/3 sm:h-2/3"></div>
     </div>
@@ -7,12 +7,12 @@
       <div class="text-center">
         <h2
           class="
-            text-6xl
+            lg:text-6xl
             leading-tight
             font-bold font-heading
             uppercase
             sm:leading-10
-            pb-10
+            lg:pb-10
           "
         >
           {{ main.title }}

@@ -1,7 +1,7 @@
 ---
 id: tokens_home
 title: ''
-image: ./cloud_logo.png
+image: ./new_cloud_logo.png
 button: Learn More
 url: https://cloud.threefold.io/
 ---

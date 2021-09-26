@@ -1,7 +1,7 @@
 ---
 id: storage_home
 title: ''
-image: ./fflow_logo_black.png
+image: ./artheon_logo.png
 button: Learn More
 url: /partners/artheon
 ---
