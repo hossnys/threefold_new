@@ -685,7 +685,7 @@
     </div>
 
     <!-- grid -->
-    <div class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
+    <div id="zero_os" class="w-full max-w-3xl mx-auto py-12" v-else-if="id == 'grid'">
       <g-image :src="cta.image" class="mx-auto lg:w-1/3 my-10" />
       <h2
         v-if="cta.title"
