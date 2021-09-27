@@ -260,6 +260,14 @@ module.exports = {
         {
             use: '@gridsome/source-filesystem',
             options: {
+                typeName: 'Info',
+                path: './content/page/how-it-works/info/**/*.md',
+            }
+        },
+
+        {
+            use: '@gridsome/source-filesystem',
+            options: {
                 typeName: 'JobsMain',
                 path: './content/page/**/jobs/main/*.md',
             }
@@ -492,7 +500,8 @@ module.exports = {
                     networkMain: 'NetworkMain',
                     network: 'Network',
                     subscribe: 'Subscribe',
-                    team: 'Team'
+                    team: 'Team',
+                    info:'Info'
                 }
             }
         },
@@ -681,6 +690,10 @@ module.exports = {
         Job: [{
             path: '/careers/:id',
             component: '~/templates/Job.vue'
+        }],
+        Info: [{
+            path: '/how-it-works/:id',
+            component: '~/templates/Info.vue'
         }],
     },
 
