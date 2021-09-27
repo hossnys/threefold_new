@@ -1,7 +1,7 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-20 px-4">
-      <div class="pt-8">
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden pt-6 px-4  text-center">
+      <!-- <div class="pt-8">
         <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">
           <h1 class="text-5xl font-medium leading-none mt-0">
@@ -61,8 +61,8 @@
                     $page.info.humanTime
                   }}</time>
                 </g-link>
-                <!-- &nbsp;&middot;&nbsp; {{ $page.info.timeToRead }} min read -->
-                <!-- &nbsp;&middot;&nbsp; -->
+                &nbsp;&middot;&nbsp; {{ $page.info.timeToRead }} min read
+                &nbsp;&middot;&nbsp;
                 <g-link :to="$page.info.path">
                   <time :datetime="$page.info.datetime">{{
                     $page.info.startDate
@@ -84,7 +84,7 @@
             />
           </div>
         </section>
-      </div>
+      </div> -->
       <section class="post-image mx-auto w-full">
         <g-image :src="$page.info.image"></g-image>
       </section>
@@ -97,16 +97,17 @@
             mx-auto
             relative
             font-serif
-            text-gray-700
+            text-gray-900
+            text-center
           "
         >
           <div
-            class="post-content-text text-lg"
+            class="post-content-text text-2xl text-center mx-auto"
             v-html="$page.info.content"
           ></div>
         </section>
 
-        <section class="post-tags container mx-auto relative py-10">
+        <!-- <section class="post-tags container mx-auto relative py-10">
           <g-link
             v-for="tag in $page.info.tags"
             :key="tag.id"
@@ -126,7 +127,7 @@
             "
             >{{ tag.title }}</g-link
           >
-        </section>
+        </section> -->
       </div>
     </div>
   </Layout>
@@ -239,3 +240,4 @@ export default {
   },
 };
 </script>
+
