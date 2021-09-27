@@ -18,7 +18,7 @@
       />
     </div>
 
-    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <Map v-if="$page.markdownPage.map" :section="$page.markdownPage.map" />
       <!-- <VideoPanel :card="$page.markdownPage.videoPanel" /> -->
 
@@ -65,7 +65,7 @@
       />
     </div>
 
-    <div class="container mx-auto sm:pxi-0 overflow-x-hidden">
+    <div class="container_tft mx-auto sm:pxi-0 overflow-x-hidden">
       <BrandPanel class="my-20"
         :brand="$page.markdownPage.brandPanel"
         :id="$page.markdownPage.id"

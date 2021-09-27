@@ -1,6 +1,6 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden pt-6 px-4  text-center">
+    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-6 px-4  text-center">
       <!-- <div class="pt-8">
         <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">

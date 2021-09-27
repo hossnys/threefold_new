@@ -49,7 +49,7 @@
         :title="$page.markdownPage.pageHeader.title"
       />
     </div>
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden py-5">
+    <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
         v-if="
           $page.markdownPage.id !== 'contact' &&
@@ -186,7 +186,7 @@
       :src="$page.markdownPage.solution_image.src"
     />
 
-    <div class="container sm:pxi-0 mx-auto py-5 overflow-visible">
+    <div class="container_tft sm:pxi-0 mx-auto py-5 overflow-visible">
       <ShowcaseProducts
         v-if="
           $page.markdownPage.productData &&
