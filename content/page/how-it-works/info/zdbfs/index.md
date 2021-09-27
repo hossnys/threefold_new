@@ -1,5 +1,6 @@
 ---
 id: zdbfs
+image: ./zdbfs.png
 ---
 # Zdbfs
 

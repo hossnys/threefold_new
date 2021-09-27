@@ -1,5 +1,6 @@
 ---
 id: zstor
+image: ./zstor.png
 ---
 # ZStor
 

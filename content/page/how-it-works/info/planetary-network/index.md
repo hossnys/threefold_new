@@ -1,5 +1,6 @@
 ---
 id: planetary-network
+image: ./planetary.png
 ---
 # Planetary Network
 

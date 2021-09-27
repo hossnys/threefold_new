@@ -1,5 +1,6 @@
 ---
 id: smart-contract
+image: ./smart.png
 ---
 
 # Smart Contract for IT

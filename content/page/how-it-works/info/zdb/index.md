@@ -1,5 +1,6 @@
 ---
 id: zdb
+image: ./zdb.png
 ---
 
 # ZDB

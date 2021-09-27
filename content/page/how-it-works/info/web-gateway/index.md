@@ -1,5 +1,6 @@
 ---
 id: web-gateway
+image: ./web_gateway.png
 ---
 # Web Gateway
 

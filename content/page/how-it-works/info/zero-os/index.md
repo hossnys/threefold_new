@@ -1,12 +1,8 @@
 ---
 id: zero-os
+image: ./zero_os.png
 ---
-
-
 # Zero-OS
-
-![](https://via.placeholder.com/1024x400)
-<br>
 
 A groundbreaking autonomous operating system built from scratch, starting with just the Linux kernel. It offers unparalleled security and efficiency. With no remote shell or login and extremely small footprint, Zero-OS ensures that hosted workloads are protected from administrative. 
 

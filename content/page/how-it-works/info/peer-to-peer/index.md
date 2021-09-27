@@ -1,5 +1,6 @@
 ---
 id: peer-to-peer
+image: ./peer_to_peer.png
 ---
 # Peer-to-Peer
 

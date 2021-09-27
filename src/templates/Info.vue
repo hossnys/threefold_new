@@ -1,6 +1,8 @@
 <template>
   <Layout :hideHeader="true" :disableScroll="true">
-    <div class="container sm:pxi-0 mx-auto overflow-x-hidden pt-6 px-4  text-center">
+    <div
+      class="container sm:pxi-0 mx-auto overflow-x-hidden pt-6 px-4 text-center"
+    >
       <!-- <div class="pt-8">
         <Alert v-if="showAlert" @clicked="linkCopied" />
         <section class="post-header container mx-auto px-0 mb-4 border-b">
@@ -85,9 +87,9 @@
           </div>
         </section>
       </div> -->
-      <section class="post-image mx-auto w-full">
+      <!-- <section class="post-image mx-auto w-full">
         <g-image :src="$page.info.image"></g-image>
-      </section>
+      </section> -->
 
       <div class="py-12">
         <section
@@ -97,12 +99,13 @@
             mx-auto
             relative
             font-serif
-            text-gray-900
-            text-center
+            text-gray-900 text-center
           "
         >
+          <g-image class="mx-auto w-full" :src="$page.info.image"></g-image>
+
           <div
-            class="post-content-text text-2xl text-center mx-auto"
+            class="post-content-text text-xl text-center mx-auto"
             v-html="$page.info.content"
           ></div>
         </section>
@@ -138,6 +141,7 @@
     info(id: $id) {
       id
      content
+     image
     }
     metadata {
       siteUrl
