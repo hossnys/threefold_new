@@ -1,10 +1,11 @@
 <template>
   <section class="py-10 pb-8 px-4 text-center">
-    <div class="max-w-2xl mx-auto mb-16" v-if="main">
+    <div class="max-w-2xl mx-auto mb-4" v-if="main">
       <h2 class="lg:text-6xl uppercase leading-tight mb-6 font-bold font-heading">
         {{ main.title }}
       </h2>
       <p class="text-gray-400 leading-relaxed"></p>
+       
     </div>
     <div
       v-if="id == 'support' || id == 'community'"
@@ -34,6 +35,45 @@
         <g-image :src="img(logo.image)" />
       </a>
     </div>
+   <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        target="_blank"
+        v-if="main.button && main.link.includes('http')"
+        :href="main.link"
+        >{{ main.button }}</a
+      >
+      <a
+        class="
+          inline-block
+          bg-white
+          text-lg
+          learn-button
+          hover:bg-gray-400
+          px-12
+          py-1
+          mr-5
+          my-4
+          border-2
+          shadow
+          border-black
+        "
+        v-else
+        :href="main.link"
+        >{{ main.button }}</a
+      >
   </section>
 </template>
 

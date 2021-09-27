@@ -376,6 +376,8 @@
         logosMain {
           id
           title
+          button
+          link
         }
         logos{
           id
