@@ -4,7 +4,7 @@
       {{ team.title }}
     </h2>
     <div
-      class="lg:max-w-4xl text-2xl text-center mb-8 mx-auto leading-relaxed"
+      class="lg:max-w-6xl text-2xl text-center mb-8 mx-auto leading-relaxed"
       v-html="team.content"
     ></div>
     <div class="flex overflow-x-scroll pb-10 scrollable">

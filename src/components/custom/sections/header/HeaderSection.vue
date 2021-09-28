@@ -2,7 +2,7 @@
   <section class="py-12 px-4 text-center">
     <div class="w-full mx-auto lg:max-w-6xl">
       <span class="text-sm font-semibold">{{ header.title }}</span>
-      <h2 class="text-4xl mt-2 uppercase mb-6 leading-tight font-heading">
+      <h2 class="lg:text-6xl mt-2 uppercase mb-6 leading-tight font-heading">
         {{ header.subtitle }}
       </h2>
       <div
@@ -15,17 +15,18 @@
           class="
             inline-block
             bg-green-500
-            text-sm text-white
+            text-lg
+            text-white
             learn-button
-            hover:bg-green-600
-            px-8
-            py-2
-            mr-2
-            my-0
-            rounded
+            hover:bg-green-400
+            bo
+            px-12
+            py-1
+            mr-5
+            mb-4
+            border-2
             shadow
-            rounded-full
-            active--exact active
+            border-black
           "
           v-if="header.btn1"
           :to="header.link1"

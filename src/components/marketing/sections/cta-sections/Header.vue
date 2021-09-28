@@ -431,7 +431,7 @@
       v-else
     >
       <div class="lg:w-2/5 px-2 lg:pr-20 lg:mt-10 order-1 lg:order-none">
-        <h2 class="text-6xl mb-6 mt-20 leading-none font-heading">
+        <h2 class="text-6xl mb-6 mt-20 uppercase leading-none font-heading">
           <span class="text-blue-600">{{ slogan }}</span> {{ title }}
         </h2>
         <div class="mb-8 text-gray-700 leading-relaxed" v-html="excerpt"></div>
