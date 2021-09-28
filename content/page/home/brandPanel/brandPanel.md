@@ -9,4 +9,4 @@ link2: /grid
 image: zero_os.png # src/assets/brandPanel/..
 ---
 
-An autonomou open-source operating system that supports the peer-to-peer cloud and the deployment of inﬁnitely scalable digital workloads with unparalleled levels of security and privacy. 
+An autonomous open-source operating system that supports the peer-to-peer cloud and the deployment of inﬁnitely scalable digital workloads with unparalleled levels of security and privacy. 
