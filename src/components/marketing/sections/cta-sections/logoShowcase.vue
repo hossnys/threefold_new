@@ -50,30 +50,11 @@
           shadow
           border-black
         "
-        target="_blank"
-        v-if="main.button && main.link.includes('http')"
+        v-if="main.button"
         :href="main.link"
         >{{ main.button }}</a
       >
-      <a
-        class="
-          inline-block
-          bg-white
-          text-lg
-          learn-button
-          hover:bg-gray-400
-          px-12
-          py-1
-          mr-5
-          my-4
-          border-2
-          shadow
-          border-black
-        "
-        v-else
-        :href="main.link"
-        >{{ main.button }}</a
-      >
+    
   </section>
 </template>
 
