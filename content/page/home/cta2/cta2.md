@@ -12,4 +12,4 @@ button4: Stay Updated
 link4: https://t.me/threefold
 ---
 
-We are not a company, but more like humans helping other humans. Our mission is bold and motivates every step we take
+We are not a company, but more like humans helping other humans. Our mission is bold and motivates every step we take.
