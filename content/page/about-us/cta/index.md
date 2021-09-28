@@ -7,4 +7,4 @@ link: https://t.me/threefold
 ---
 Join us on our journey to build the digital 
 <br />
-infrastructure that will connect humanity
+infrastructure that will connect humanity.
