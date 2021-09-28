@@ -14,5 +14,6 @@ link: "#zero_os"
 brandPanel: grid_brandPanel
 brandPanel2: grid_brandPanel2
 brandPanel3: grid_brandPanel3
+brandPanel4: grid_brandPanel4
 cta: grid_cta
 ---

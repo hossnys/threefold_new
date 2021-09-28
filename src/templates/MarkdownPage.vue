@@ -42,12 +42,17 @@
         "
         :brandPanel3="true"
       />
+
+    
+
       <CustomCTA
         :header="true"
         v-if="$page.markdownPage.pageHeader"
         :image="$page.markdownPage.pageHeader.image"
         :title="$page.markdownPage.pageHeader.title"
       />
+
+    
     </div>
     <div class="container_tft sm:pxi-0 mx-auto overflow-x-hidden py-5">
       <Header
@@ -123,6 +128,15 @@
           $page.markdownPage.id == 'token'
         "
         :cta="$page.markdownPage.cta"
+      />
+
+          <BrandPanel
+        :id="$page.markdownPage.id"
+        :brand="$page.markdownPage.brandPanel4"
+        v-if="
+          $page.markdownPage.brandPanel4 && $page.markdownPage.id !== 'token'
+        "
+        :brandPanel4="true"
       />
       <SplitWithImage
         v-if="$page.markdownPage.tft"
@@ -441,7 +455,17 @@
          sourceUrl2
          content
          image
-       }         
+       } 
+        brandPanel4{
+         id
+         title
+         btnTxt
+         sourceUrl
+         btnTxt2
+         sourceUrl2
+         content
+         image
+       }                 
        partenershipsMain{
          id
          title
