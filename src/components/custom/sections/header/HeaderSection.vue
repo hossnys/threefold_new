@@ -2,7 +2,7 @@
   <section class="py-12 px-4 text-center">
     <div class="w-full mx-auto lg:max-w-6xl">
       <span class="text-sm font-semibold">{{ header.title }}</span>
-      <h2 class="lg:text-6xl mt-2 uppercase mb-6 leading-tight font-heading">
+      <h2 class="lg:text-5xl mt-2 uppercase mb-6 leading-tight font-heading">
         {{ header.subtitle }}
       </h2>
       <div
