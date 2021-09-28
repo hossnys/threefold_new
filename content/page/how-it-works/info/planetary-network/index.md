@@ -1,6 +1,8 @@
 ---
 id: planetary-network
 image: ./planetary.png
+button : Explore other tech components
+link : /how-it-works
 ---
 # Planetary Network
 

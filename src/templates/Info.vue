@@ -110,6 +110,25 @@
           ></div>
         </section>
 
+        <a
+          class="
+            inline-block
+            bg-white
+            text-lg
+            learn-button
+            hover:bg-gray-400
+            px-12
+            py-1
+            mr-5
+            my-8
+            border-2
+            shadow
+            border-black
+          "
+          :href="$page.info.link"
+          >{{ $page.info.button }}</a
+        >
+
         <!-- <section class="post-tags container mx-auto relative py-10">
           <g-link
             v-for="tag in $page.info.tags"
@@ -142,6 +161,8 @@
       id
      content
      image
+     button
+     link
     }
     metadata {
       siteUrl

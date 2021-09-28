@@ -1,6 +1,8 @@
 ---
 id: web-gateway
 image: ./web_gateway.png
+button : Explore other tech components
+link : /how-it-works
 ---
 # Web Gateway
 

@@ -1,6 +1,8 @@
 ---
 id: zflist
 image: ./zlist.png
+button : Explore other tech components
+link : /how-it-works
 ---
 # ZFlist
 

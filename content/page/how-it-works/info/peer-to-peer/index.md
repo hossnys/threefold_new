@@ -1,6 +1,8 @@
 ---
 id: peer-to-peer
 image: ./peer_to_peer.png
+button : Explore other tech components
+link : /how-it-works
 ---
 # Peer-to-Peer
 

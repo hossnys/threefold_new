@@ -1,6 +1,8 @@
 ---
 id: zdbfs
 image: ./zdbfs.png
+button : Explore other tech components
+link : /how-it-works
 ---
 # Zdbfs
 
