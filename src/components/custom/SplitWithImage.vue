@@ -48,6 +48,7 @@
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <a
               :href="tft.link"
+              target="_blank"
               class="
                 inline-block
                 bg-white
