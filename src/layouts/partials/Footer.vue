@@ -25,7 +25,7 @@
               rel="noopener noreferrer"
               >{{ element.name }}</a
             >
-            <g-link v-else :to="element.link">{{ element.name }}</g-link>
+            <a v-else :href="element.link">{{ element.name }}</a>
           </li>
         </ul>
       </div>
